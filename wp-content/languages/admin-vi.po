@@ -6363,7 +6363,7 @@ msgstr "WordPress &rsaquo; Cài Đặt Tập Tin Cấu Hình"
 
 #: wp-admin/setup-config.php:159
 msgid "Welcome to WordPress. Before getting started, we need some information on the database. You will need to know the following items before proceeding."
-msgstr "Chào mừng bạn đến với WordPress. Trước khi bắt đầu, chúng tôi cần thông tin để kết nối với cơ sở dữ liệu. Bạn sẽ cần biết những thông tin sau trước khi tiến hành."
+msgstr "Chào mừng bạn tới với trình cài đặt tự động trang bán hàng zshop của chúng tôi được xây dựng trên nền tảng mã nguồn mở wordpress vui lòng cài đặt cấu hình database."
 
 #: wp-admin/setup-config.php:164
 msgid "Database host"
