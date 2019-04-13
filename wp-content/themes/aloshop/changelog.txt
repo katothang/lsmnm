@@ -1,0 +1,211 @@
+1.1
+Fixed: 
+	- Small style Product Search, Detail Product, Product list
+	- Update Documentation
+Added: 
+	- Change main color
+	- New Import data
+
+1.2
+Added: 
+	- Product detail with 2 style display
+	- 2 Style for variatible attribute
+	- RTL support
+	- Set sidebar for product detail page
+	- List products widget
+	- Menu ontop
+	- Safari style fixed
+
+1.3
+Fixed:
+	- Fix update woocommerce 2.6.1
+		+ Price style
+		+ Price fillter query
+		+ My account style
+
+1.4
+Fixed:
+	- Hidden Add to cart button in product thumbnail with product list style
+	- Bug style when product thumb hover is empty
+Added:
+	- Custom main product thumb hover animation with 2 style in theme option
+
+1.5
+Added:
+	- Show/hidden list category in header shop
+	- Add number of list category header shop display
+	- Show/hidden category dropdown in SV Search Form element
+	- Update Documentation
+Fixed:
+	- fix double thumbnail product in some element
+	- Currency in mini cart
+	- Update cart button disabled
+	- Custom main color
+
+1.6
+Added:
+	- Disable/enable product image thumbnail redirect to product detail
+	- Add option set number product/page in shop/woocommerce archive page
+	- Add 4 Layout of home page
+	- Import demo data without media
+	- Add Home 4 Slider style in SV Product list
+Fixed:
+	- Category list style
+	- Enqueue TimeCircle script in SV Advantage style Top(Close)
+	- Fix Catchable fatal error in SV Product List Category
+	- SV Latest Post link,title and sub string advanced
+	- Remove SV Login/Register Form 
+	- Duplicate password input, duplicate register form
+
+1.7
+Added:
+	- Require password field register form
+	- Compatibility with Polylang Plugin
+	- WooCommerce Catalog Mode Settings
+
+1.8
+Added:
+	- Show/hide Upsell product, Related Product and Lastest Product in detail product page
+	- Show/hide View More in SV Product List Category Style Home 11
+	- Add 1 Layout of home page (Home 17)
+
+Fixed:
+	- Url in Category mega can't redirect
+	- Mini Cart z-index on mobile
+	- Menu mobile click when resize screen
+
+1.9
+Fixed:
+	- Menu mobile click when resize screen
+	- Click event on mobile
+
+2.0
+Added:
+	- Shop layout width more 4 column
+
+2.1
+Fixed:
+	- Wishlist click
+	- Small style
+	- Maps js update
+
+2.2
+Fixed:
+	- Small responsive style
+Added:
+	- Popup product gallerys in product detail
+	- More setting custom menu color
+	- Updated Visual Composer Plugin Ver 4.12.1
+	- Optimal crop product size for display
+
+2.3
+New:
+	- 3 layout home page added
+
+2.4
+Update:
+	- Visual composer Plugin
+	- New import demo data
+
+2.5
+Update:
+	- Visual composer Plugin
+	- More Elemenr page
+	- Mini cart scroll
+	- Shop ajax
+
+2.6
+Update:
+	- 2 layout home page added
+
+Fixed:
+	- Sub menu transition hover out
+
+2.7
+	- remove variations.xml
+
+2.8
+Update:
+	- Visual composer Plugin
+
+2.9
+Fixed:
+	- Remove phpinfo();
+
+3.0:
+Update:
+	- Visual composer Plugin
+	
+Fixed:
+	- Shop ajax in category page
+	- Shop default sort disable
+	- Update import data
+	- Woocommerce big update ver 3.0
+
+3.1:
+Fixed:
+	- Variable product js in firefox
+	- Fix import contact.xml
+
+Update:
+	- Custom min,max price in Product Fillter widget
+
+3.2:
+Update:
+	- Add show/hide excerpt product detail page
+	
+Fixed:
+	- Featured product query
+
+3.3:
+Update:
+	- Visual composer Plugin
+	
+Fixed:
+	- RTL style
+	- Variable product image loop
+	- Woocommerce update cart/checkout url
+	- Shop ajax query
+
+3.4:
+Update:
+	- RTL style
+	- Menu category click on ipad
+	
+3.5 - 3/3/2018
+Update:
+	- Add 2 home page layout
+	- Add header append for category product
+	- Woocommerce 3.3.x compatible
+	- Mini cart update
+
+3.6 - 9/4/2018
+Fixed:
+	- Check input icon on remember login style
+	- Instagram update api
+	- Data import
+
+3.7 - 9/5/2018
+Updated:
+	- Responsive woocommerce page
+
+3.8 - 23/5/2018
+Updated:
+	- My account element
+
+3.9 - 31/7/2018
+Updated:
+	- Mini cart fixed
+	- Auto load rtl style
+	- WpBakery Page Builder 5.5.2
+	- Add custom product tab
+
+Fixed:
+	- Remove repeat password when use auto create password feature of woocommerce
+	- Fix RTL in WpBakery Page Builder 5.5.2
+	- Icon missing in WpBakery Page Builder
+
+3.9.1 - 7/8/2018
+Updated:
+	- Menu fixed active on mobile option
+	- Menu sub mobile click

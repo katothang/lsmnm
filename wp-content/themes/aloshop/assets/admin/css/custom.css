@@ -1,0 +1,473 @@
+.7up-theme{
+	background-image: url('../image/7up.png');
+}
+.vc_element-icon.icon-st{
+	background-image: url('../image/7up.png');
+}
+/*Fix UI*/
+.wrap.settings-wrap .ui-tabs-nav{
+    border: 0 !important;
+    background: transparent;
+}
+#option-tree-settings-api > .ui-tabs > .ui-tabs-nav li{
+    background: #fff;
+    width: 100%;
+}
+.wrap.settings-wrap .ui-tabs-nav li a{
+    display: block;
+    white-space: normal;
+    font-weight: inherit;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+#option-tree-settings-api > .ui-tabs{
+    padding: 0 0 5px;
+}
+.option-tree-setting-wrap .ui-state-default,
+.option-tree-setting-wrap .ui-widget-content .ui-state-default,
+.option-tree-setting-wrap .ui-widget-header .ui-state-default{
+    border: 0;
+}
+.wrap.settings-wrap .ui-tabs-nav li a{
+    color: #000 !important;
+}
+
+#adminmenu .toplevel_page_ot-theme-options .wp-menu-image img {
+	padding: 1px;
+}
+#option-tree-header #option-tree-logo a{
+	padding-top: 0px !important;
+}
+#option-tree-header #option-tree-logo a:before{
+	display: none !important;
+}
+.settings-wrap #option-tree-header {
+    background: #FFF;
+    border: 1px solid #CCC;
+}
+.settings-wrap #option-tree-header #option-tree-version span {
+    color: #333 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.settings-wrap #option-tree-sub-header {
+    padding: 5px !important;
+    margin-bottom: 35px;
+}
+.option-tree-ui-button.button {
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    height: 35px !important;
+    line-height: 35px !important;
+    text-shadow: none;
+    box-shadow: none;
+}
+.option-tree-ui-button.button.button-primary {
+    background: #EC3237;
+    color: #FFF;
+}
+.option-tree-ui-button.button.button-primary:hover {
+    background: #a81014;
+}
+.ui-tabs-nav:not(.ot-theme-option-nav) {
+    width: 175px !important;
+    padding-top: 0 !important;
+}
+.ui-tabs-nav:not(.ot-theme-option-nav) li {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    background: #FFF;
+    border: 1px solid #CCC !important;
+    border-radius: 0 !important;
+    border: none;
+}
+.ui-tabs-nav:not(.ot-theme-option-nav) li:nth-child(1) {
+    margin-top: 0 !important;
+}
+.ui-tabs-nav:not(.ot-theme-option-nav) li.ui-state-active {
+    background: #EC3237;
+    color: #FFF;
+}
+.ui-tabs-nav:not(.ot-theme-option-nav) li a {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 15px 10px !important;
+    float: none!important;
+}
+.ui-tabs-nav:not(.ot-theme-option-nav) li a .fa {
+    font-size: 18px;
+    margin-right: 10px;
+}
+.ui-tabs-nav:not(.ot-theme-option-nav) li.ui-state-active {
+    background: #EC3237 !important;
+    border-color: #EC3237 !important;
+}
+.ui-tabs-nav:not(.ot-theme-option-nav) li.ui-state-active a {
+    color: #FFF !important;
+    position: relative;
+    float: none;
+}
+.ui-tabs-nav:not(.ot-theme-option-nav) li.ui-state-active a:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #EC3237;
+    border-bottom: 11px solid transparent;
+    right: -9px;
+    top: 50%;
+    margin-top: -9px;
+}
+.type-list-item .option-tree-ui-button.hug-right {
+    float: none;
+    margin-left: 0px;
+}
+.ui-tabs .ui-tabs-panel.tab-content {
+    padding: 0px;
+}
+.ui-tabs {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.ui-tabs #poststuff {
+    padding-top: 0 !important;
+}
+.ui-tabs .postbox {
+    padding: 0 !important;
+    margin-right: 0 !important;
+    background: transparent !important;
+}
+.format-settings {
+    width: auto !important;
+    padding: 20px !important;
+    background: #FFF !important;
+    border: 1px solid #CCC !important;
+}
+.format-settings:not(:nth-child(1)) {
+    border-top: none !important;
+}
+.format-settings .format-setting-label {
+    border: none;
+    margin-bottom: 0;
+}
+.format-settings .format-setting-label .label {
+    margin-top: 0 !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.format-settings .format-setting-wrap {
+    padding: 0 !important;
+}
+.format-settings .format-setting {
+    width: auto !important;
+}
+.format-settings .format-setting .on-off-switch,
+.format-settings .format-setting .on-off-switch *,
+.format-settings .format-setting .list-list-item,
+.format-settings .format-setting .list-list-item * {
+    box-sizing: border-box;
+}
+.format-settings .format-setting .description {
+    font-style: italic;
+    float: none;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.format-settings .format-setting .ot_upload_media,
+.format-settings .format-setting .option-tree-ui-remove-media {
+    height: 29px !important;
+}
+.format-settings .format-setting .option-tree-ui-remove-media {
+    background: #CCC !important;
+    box-shadow: none !important;
+}
+.format-settings .format-setting .option-tree-ui-remove-media:hover {
+    background: #a6a6a6 !important;
+}
+.format-settings .format-setting .option-tree-ui-button .icon {
+    font-size: 15px;
+    margin-top: 7px;
+}
+.format-settings .format-setting .ot-icon-plus-circle::before {
+    content: "\f067 ";
+}
+.format-settings .format-setting .ot-icon-minus-circle {
+    width: 12px !important;
+    margin-left: 3px !important;
+}
+.format-settings .format-setting .ot-icon-minus-circle::before {
+    content: "\f068 ";
+}
+.format-settings .format-setting input[type="text"] {
+    border-radius: 0;
+    box-shadow: none !important;
+}
+.format-settings .format-setting .option-tree-ui-media-wrap:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.format-settings .format-setting .option-tree-ui-media-wrap .option-tree-ui-image-wrap img {
+    border-radius: 0;
+    max-width: 150px;
+    height: auto;
+}
+.format-settings .format-setting .on-off-switch {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+.format-settings .format-setting .on-off-switch .slide-button {
+    border-radius: 0 !important;
+    border-color: #EC3237 !important;
+    background: #EC3237 !important;
+    box-shadow: none !important;
+    height: 27px !important;
+}
+.format-settings .format-setting .on-off-switch input:checked + label {
+    color: #FFF !important;
+}
+.format-settings .format-setting .select-wrapper {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border-color: #CCC !important;
+}
+.format-settings .format-setting input[type="checkbox"] {
+    display: none;
+}
+.format-settings .format-setting .list-location-wrapper input[type="checkbox"] {
+    display: inline-block !important;
+}
+.format-settings .format-setting input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.format-settings .format-setting input[type="checkbox"] + label:after,
+.format-settings .format-setting input[type="checkbox"] + label:before {
+    position: absolute;
+}
+.format-settings .format-setting input[type="checkbox"] + label:after {
+    content: '';
+    left: -20px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #CCC;
+    display: block;
+    z-index: 1;
+}
+.format-settings .format-setting input[type="checkbox"] + label:before {
+    content: '\f00c';
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #EC3237;
+    top: 3px;
+    left: -16px;
+    display: none;
+}
+.format-settings .format-setting input[type="checkbox"]:checked + label:before {
+    display: block;
+}
+.format-settings .format-setting .option-tree-ui-colorpicker-input-wrap .wp-color-result {
+    height: 29px;
+    border-radius: 0;
+}
+.format-settings .format-setting .option-tree-ui-colorpicker-input-wrap .wp-color-result:after {
+    height: 100%;
+}
+.format-settings .format-setting .js-remove-google-font {
+    height: 29px !important;
+}
+.format-settings .format-setting .ot-css-editor {
+    border-radius: 0 !important;
+}
+.format-settings .format-setting .option-tree-sortable .option-tree-setting {
+    border-radius: 0 !important;
+}
+.format-settings .format-setting .option-tree-sortable .option-tree-setting .open {
+    height: 40px !important;
+}
+.format-settings .format-setting .option-tree-sortable .option-tree-setting .button-section a {
+    height: 40px !important;
+    margin: -1px 0 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.format-settings .format-setting .option-tree-sortable .option-tree-setting .button-section a .icon {
+    margin-top: 11px !important;
+}
+.format-settings .format-setting .option-tree-sortable .format-settings {
+    border: none !important;
+    padding-top: 0 !important;
+}
+.format-settings .format-setting .option-tree-sortable .option-tree-setting-remove span {
+    color: #333 !important;
+}
+.ot-metabox-panels {
+    border: none !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+}
+.ot-metabox-panels .format-settings {
+    border-top: 1px solid #CCC !important;
+}
+.ot-metabox-panels .format-settings:not(:nth-child(1)) {
+    border-bottom: none !important;
+}
+.ot-metabox-panels .format-settings:last-child {
+    border-bottom: 1px solid #CCC !important;
+}
+#st_maxshop_page_setting .ot-metabox-panels #setting_st_maxshop_tab_sidebar {
+    border-bottom: 1px solid #CCC !important;
+}
+#setting_st_tab_product_general,
+#setting_st_maxshop_banner_setting,
+#setting_st_maxshop_sidebar_setting {
+    border-bottom: 1px solid #CCC !important;
+}
+#setting_st_maxshop_create_gallery .option-tree-ui-button.right {
+    float: left;
+    margin: 0px;
+    margin-right: 10px;
+}
+.inside .ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav {
+    border-bottom: 1px solid #EC3237 !important;
+    height: 39px !important;
+}
+.inside .ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li {
+    border-radius: 0 !important;
+    margin-left: 0 !important;
+}
+.inside .ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li a {
+    border-bottom: none !important;
+    padding: 10px 20px !important;
+    color: #333 !important;
+    box-shadow: none !important;
+}
+.inside .ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li.ui-state-active {
+    border-color: #EC3237 !important;
+}
+.inside .ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li.ui-state-active a {
+    padding: 10.5px 20px !important;
+    color: #EC3237 !important;
+}
+.type-numeric-slider .format-setting-inner {
+    padding-left: 0 !important;
+    border: none !important;
+    background: transparent !important;
+}
+.type-numeric-slider .format-setting-inner .ot-numeric-slider {
+    margin-left: 10px !important;
+    margin-right: 20px !important;
+    height: 3px !important;
+    background: #CCC !important;
+    border-radius: 0 !important;
+}
+.type-numeric-slider .format-setting-inner .ot-numeric-slider .ui-slider-handle {
+    height: 20px !important;
+    width: 30px !important;
+    background: #FFF;
+    border-radius: 0;
+    border-color: #EC3237;
+    margin-top: -6px;
+}
+.format-setting.no-desc > .format-setting-inner input.option-tree-setting-title {
+    width: 63%!important;
+}
+.wp-editor-tabs .wp-switch-editor {
+    height: 28px !important;
+}
+.type-list-item .format-setting .description {
+    width: 100%;
+}
+.format-settings .iconpicker-popover {
+    position: inherit;
+}
+.format-settings .iconpicker-popover .iconpicker-item {
+    padding: 13px;
+    width: inherit;
+    height: inherit;
+}
+.format-settings .format-settings {
+    clear: both;
+}
+#contact-form-editor-tabs{
+    width: 100%!important;
+}
+@media (max-width: 767px) {
+    .settings-wrap .ui-tabs-nav:not(.ot-theme-option-nav) {
+        float: none !important;
+        width: 100% !important;
+    }
+    .settings-wrap .ui-tabs-nav:not(.ot-theme-option-nav) li {
+        display: inline-block !important;
+        margin: 3px !important;
+    }
+    .settings-wrap .ui-tabs-nav:not(.ot-theme-option-nav) li a {
+        padding: 5px 10px !important;
+    }
+    .settings-wrap .ui-tabs-nav:not(.ot-theme-option-nav) li.ui-state-active a:after {
+        content: '';
+        position: static !important;
+        width: 0;
+        height: 0;
+        border: none !important;
+    }
+    .postbox {
+        margin-left: 0 !important;
+    }
+}
+.format-settings .format-setting.type-background .option-tree-ui-colorpicker-input-wrap .wp-color-result,
+.format-settings .format-setting.type-typography .option-tree-ui-colorpicker-input-wrap .wp-color-result{
+    height: 29px;
+}
+.format-setting .format-setting-inner{
+    width: 100% !important;
+}
+.ui-tabs .ui-tabs-panel.tab-content{
+    border-bottom: 1px solid #ccc;
+}
+.ot-metabox-panels .ui-tabs-panel > div:last-child{
+    border-bottom: 0 !important
+}
+.ot-metabox-wrapper > input + .format-settings:not(:nth-child(1)) {
+    border-top: 1px solid #ccc !important;
+}
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li a{
+    color: black !important;
+}
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li.ui-state-active a{
+    color: #fff !important;
+}
+#option-tree-settings-api .wp-color-result-text{
+    padding: 2.5px 6px;
+}
+.hide-color-picker{
+    display: inline-block !important;
+}
+
+.live-previews img {
+	width: 80px;
+	height: 80px;
+}
+ 
+.woocommerce table.form-table select{
+	height: 33px;
+}
+.wpb_s7upf_tabs .vc_controls>.vc_controls-cc {
+    top: 17px;
+}
+.menu-item-settings:after,
+.textarea_html:after{
+	display: table;
+    content: " ";
+    clear: both;
+}
+.wrap-metabox{
+	float: left;
+}
+
