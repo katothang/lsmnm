@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-04-15 08:05+0000\n"
+"PO-Revision-Date: 2019-04-15 08:04+0000\n"
 "Last-Translator: admin <devtayto.com@gmail.com>\n"
 "Language-Team: Tiếng Việt\n"
 "Language: vi\n"
@@ -4348,7 +4348,7 @@ msgstr ""
 
 #: woocommerce/global/quantity-input.php:14
 msgid "Qty"
-msgstr "Số Lượng"
+msgstr ""
 
 #: woocommerce/global/quantity-input.php:17
 msgctxt "Product quantity input tooltip"
