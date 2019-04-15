@@ -62,16 +62,6 @@
     $suburl = str_replace($urlhost,"",$root);
     config_htaccess($suburl);
     config_database($servername, $username, $password, $db);
-    //echo $root;
-    //include ('install-setting.php');
-    // $sql = "";
-    // $myfile = fopen("../DB/shop.sql", "r") or die("Unable to open file!");
-    // while(!feof($myfile)) {
-    //   $sql = $sql.fgets($myfile);
-    // }
-    // fclose($myfile);
-    // $result = mysqli_query($conn, $sql);
-    // mysqli_close($conn);
     $sqlSource = file_get_contents('../DB/shop.sql');
     $sqlSource  = str_replace("siteurlvalueresult",$root,$sqlSource);
     mysqli_multi_query($conn,$sqlSource);
