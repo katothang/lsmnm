@@ -59,7 +59,7 @@
     $root = str_replace("/wp-admin/install-config.php?step=2","",$root);
     $urlhost = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
     
-    $suburl = str_replace($urlhost."/","",$root);
+    $suburl = str_replace($urlhost,"",$root);
     config_htaccess($suburl);
     config_database($servername, $username, $password, $db);
     //echo $root;
